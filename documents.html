@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documents — Résumé &amp; Cover Letter · Lakshmi Pravallika Regalla</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="bg-mesh">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">P</span>
+        <span>Pravallika</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="documents.html">Documents</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="documents.html" class="nav-cta" target="_blank" rel="noopener">Resume</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="eyebrow" data-reveal>Documents</span>
+      <h1 data-reveal data-reveal-delay="1">Résumé &amp; <span class="serif gradient-text">cover letter</span><br />read in-line.</h1>
+      <p data-reveal data-reveal-delay="2">Switch between the two with the toggle below — or grab the PDF if you'd rather take it with you.</p>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top: 1rem;">
+    <div class="container">
+
+      <!-- Toggle + download bar -->
+      <div class="doc-toggle-bar" data-reveal>
+        <div class="doc-toggle" role="tablist">
+          <button class="doc-toggle-btn active" data-target="view-resume" type="button">
+            ✦ Résumé
+          </button>
+          <button class="doc-toggle-btn" data-target="view-cover" type="button">
+            ✉ Cover Letter
+          </button>
+        </div>
+        <div id="active-download">
+          <a href="lrresume.pdf" download class="btn btn-primary">↓ Download Résumé (PDF)</a>
+        </div>
+      </div>
+
+      <!-- =========================
+           RÉSUMÉ — HTML view
+           ========================= -->
+      <article class="doc-view active" id="view-resume" data-reveal>
+        <div class="paper">
+          <header class="paper-header">
+            <h2 class="paper-name">Lakshmi Pravallika Regalla</h2>
+            <div class="paper-title">
+              <span>AI-Assisted Full Stack Engineer</span>
+              <span class="sep">·</span>
+              <span>Angular</span>
+              <span class="sep">·</span>
+              <span>.NET Core</span>
+              <span class="sep">·</span>
+              <span>Azure</span>
+            </div>
+            <div class="paper-contact">
+              <a href="mailto:pravallikaregalla9@gmail.com">✉ pravallikaregalla9@gmail.com</a>
+              <a href="tel:+12019041595">☎ +1 (201) 904-1595</a>
+              <span>📍 New York, USA</span>
+            </div>
+          </header>
+
+          <section class="paper-section">
+            <h3 class="paper-section-title">Professional Summary</h3>
+            <p>
+              AI-Focused Full Stack Developer with <strong>3.5 years</strong> building scalable pharmacy ecosystems using Angular, TypeScript, C#, and .NET Core. Skilled at leveraging AI tools across the development lifecycle to craft high-performance, PWA-ready interfaces with modular architectures. Proven track record shipping reliable, production-grade software end-to-end in Agile teams.
+            </p>
+          </section>
+
+          <section class="paper-section">
+            <h3 class="paper-section-title">Technical Skills</h3>
+            <dl class="paper-skills">
+              <dt>Frontend</dt>
+              <dd>Angular (2-18+), TypeScript, RxJS, HTML5, CSS3 / SCSS, Bootstrap, Wijmo Grids, Responsive Design, PWA</dd>
+
+              <dt>State &amp; Data</dt>
+              <dd>NgRx patterns, RxJS Observables / Subjects, Angular Services, HTTP Interceptors</dd>
+
+              <dt>Backend</dt>
+              <dd>.NET Core, ASP.NET Web API, C#, RESTful Services, Microservices Architecture</dd>
+
+              <dt>Databases</dt>
+              <dd>SQL Server (Stored Procedures, Indexing, Views), Elasticsearch</dd>
+
+              <dt>AI &amp; Tools</dt>
+              <dd>Claude Code, Claude Opus, Gemini, ChatGPT, GitHub Copilot, Cursor, AI-Assisted Development, Prompt Engineering</dd>
+
+              <dt>Testing</dt>
+              <dd>Jasmine, Karma, NUnit, XUnit</dd>
+
+              <dt>Cloud &amp; DevOps</dt>
+              <dd>Azure, Azure DevOps CI/CD, Azure App Services</dd>
+
+              <dt>Dev Tools</dt>
+              <dd>VS Code, Visual Studio, Git, Jira, Postman, Swagger, Chrome DevTools</dd>
+            </dl>
+          </section>
+
+          <section class="paper-section">
+            <h3 class="paper-section-title">Professional Experience</h3>
+
+            <div class="paper-role">
+              <div class="paper-role-header">
+                <div class="paper-role-title">Software Engineer — AI-Focused Full Stack Developer</div>
+                <div class="paper-role-date">Apr 2025 — Present</div>
+              </div>
+              <div class="paper-role-org">Redsails Technologies (formerly known as PrimeRx) · New York, USA</div>
+              <ul class="paper-bullets">
+                <li>Lead end-to-end product feature delivery across pharmacy management and patient engagement platforms — from user interface through backend services and data layers.</li>
+                <li>Delivered core product features end-to-end — two-way patient-pharmacist chat with image sharing, and complete payment flows spanning the pharmacy management cloud, point-of-sale system, and patient mobile app.</li>
+                <li>Engineered an end-to-end ASAP file generation and PDMP compliance system, ensuring accurate prescription reporting and regulatory adherence — including an automatic ASAP scheduler with timely notifications to resolve compliance issues.</li>
+                <li>Drove platform-wide performance optimization for high-traffic screens; also part of broader product areas including facility management, multitenant reporting, 340B program support, compounding RX, and market-facing modules.</li>
+                <li>Leverage AI tools (Claude Code, Claude Opus, Gemini, ChatGPT, GitHub Copilot, Cursor) throughout the development lifecycle to accelerate delivery and improve code quality.</li>
+                <li>Partner with product, design, and QA teams in Agile sprints to scope, build, and ship reliable software releases; manage automated build, test, and deployment pipelines for production.</li>
+              </ul>
+
+              <div class="paper-project">
+                <div class="paper-project-title">Project: AI Quiz Platform — Internal Team Tool</div>
+                <ul class="paper-bullets">
+                  <li>Designed and built a fully functional AI-powered quiz web application from scratch using Angular and AI-assisted development tools — from requirement gathering to live deployment in just 2 days, hosting live interactive sessions for <strong>300+ participants</strong> simultaneously.</li>
+                  <li>Built key engagement features including real-time leaderboards, animated question boards, team rotation logic, and tiebreaker flows — leveraging AI tools throughout for component generation, logic optimization, and UX improvements.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="paper-role">
+              <div class="paper-role-header">
+                <div class="paper-role-title">UI/UX Developer</div>
+                <div class="paper-role-date">Jun 2021 — Aug 2023</div>
+              </div>
+              <div class="paper-role-org">Sails Software Solutions · India</div>
+              <ul class="paper-bullets">
+                <li>Designed and built user-friendly web interfaces for a large-scale pharmacy management platform.</li>
+                <li>Created a shared design system of reusable UI components, improving consistency and development speed across the team.</li>
+                <li>Translated business requirements and user needs into clean, accessible product experiences.</li>
+                <li>Built delivery and shipping workflow features that supported reliable order fulfillment from pharmacy to patient.</li>
+                <li>Improved page load performance and overall responsiveness across data-heavy screens.</li>
+                <li>Modernized older sections of the platform with newer technology, without disrupting day-to-day users.</li>
+                <li>Wrote tests to catch issues early and partnered closely with backend engineers, product, and QA in Agile sprints.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="paper-section">
+            <h3 class="paper-section-title">Education</h3>
+
+            <div class="paper-role">
+              <div class="paper-role-header">
+                <div class="paper-role-title">Master of Science — Computer Science</div>
+                <div class="paper-role-date">GPA 3.9 / 4.0</div>
+              </div>
+              <div class="paper-role-org">Sacred Heart University · Fairfield, CT · Aug 2023 — Dec 2024</div>
+              <p style="font-size: 0.94rem; margin-top: 0.4rem;">Coursework: Data Structures, Database Systems, Software Engineering, Cloud Computing, Web Application Development.</p>
+            </div>
+
+            <div class="paper-role">
+              <div class="paper-role-header">
+                <div class="paper-role-title">Bachelor of Technology — Computer Science Engineering</div>
+                <div class="paper-role-date">GPA 8.3 / 10</div>
+              </div>
+              <div class="paper-role-org">IIIT Nuzvid · Andhra Pradesh, India · 2017 — 2021</div>
+              <p style="font-size: 0.94rem; margin-top: 0.4rem;">Coursework: OOP, Operating Systems, Computer Networks, DBMS, Software Development Life Cycle.</p>
+            </div>
+          </section>
+
+          <section class="paper-section">
+            <h3 class="paper-section-title">Certifications</h3>
+            <div class="paper-cert">
+              <span class="paper-cert-name">Google UI/UX Design Professional Certificate</span>
+              <span class="paper-cert-meta">Google · Coursera</span>
+            </div>
+            <div class="paper-cert">
+              <span class="paper-cert-name">Meta Front-End Developer Professional Certificate</span>
+              <span class="paper-cert-meta">Meta · Coursera</span>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <!-- =========================
+           COVER LETTER — HTML view
+           ========================= -->
+      <article class="doc-view" id="view-cover" data-reveal>
+        <div class="paper">
+          <header class="paper-header">
+            <h2 class="paper-name">Lakshmi Pravallika Regalla</h2>
+            <div class="paper-title">
+              <span>AI-Assisted Full Stack Engineer</span>
+              <span class="sep">·</span>
+              <span>Angular</span>
+              <span class="sep">·</span>
+              <span>.NET Core</span>
+              <span class="sep">·</span>
+              <span>Azure</span>
+            </div>
+            <div class="paper-contact">
+              <a href="mailto:pravallikaregalla9@gmail.com">✉ pravallikaregalla9@gmail.com</a>
+              <a href="tel:+12019041595">☎ +1 (201) 904-1595</a>
+              <span>📍 New York, USA</span>
+            </div>
+          </header>
+
+          <div class="letter-meta">
+            <span>April 2026</span>
+            <span>Application — AI-Assisted Full Stack Engineer</span>
+          </div>
+
+          <p class="letter-greeting">Dear Hiring Manager,</p>
+
+          <div class="letter-body">
+            <p>
+              I'm writing to express my interest in joining your team as an <strong>AI-Assisted Full Stack Engineer</strong>. With 3.5 years of experience building scalable applications using <strong>Angular, TypeScript, .NET Core, and Azure</strong> — much of it in the pharmacy technology domain — I bring a combination of full-stack engineering depth and AI-driven delivery that I believe could be valuable to your team.
+            </p>
+            <p>
+              My career began as a UI/UX Developer building user-facing experiences for a pharmacy management platform — contributing to shared component systems, performance improvements, and modernization of legacy modules across multiple release cycles. After completing my <strong>Master's in Computer Science at Sacred Heart University with a 3.9 GPA</strong>, I expanded into full-stack delivery — now owning .NET Core API development, SQL Server tuning, Azure Blob Storage integration, and AI-assisted workflows alongside Angular UI work.
+            </p>
+            <p>
+              In my current role at <strong>Redsails Technologies (formerly known as PrimeRx)</strong>, I lead end-to-end feature delivery across two production pharmacy applications. My contributions span <strong>cross-platform transaction flows</strong> connecting the pharmacy cloud, point-of-sale system, and patient experience; secure messaging with media and history support; an end-to-end <strong>ASAP file generation and PDMP compliance system</strong> with an automatic scheduler for accurate prescription reporting and regulatory adherence; and enhancements across multiple modules including facility management, compounding RX, and 340B program support. I consistently focus on platform-wide performance, reliability, and clean delivery — improving high-traffic screen responsiveness and reducing production defects across my work.
+            </p>
+            <p>
+              What draws me to this opportunity is the chance to bring my combined design and engineering perspective to products that demand both polish and scale. I'm certified in <strong>Google UI/UX Design</strong> and <strong>Meta Front-End Developer</strong> programs, treat accessibility, performance, and visual hierarchy as production concerns rather than afterthoughts, and use AI tools throughout the development lifecycle to deliver faster without compromising quality.
+            </p>
+            <p>
+              Outside of my day-to-day work, I'm proud of having shipped a fully functional <strong>AI-powered quiz platform</strong> from scratch in just 2 days — a personal initiative used by 300+ live participants. It reflects how I leverage AI to take ideas from concept to production at speed.
+            </p>
+            <p>
+              I'd welcome the chance to discuss how my background could contribute to your team's goals. Thank you for your consideration — I look forward to the possibility of speaking with you.
+            </p>
+          </div>
+
+          <div class="letter-signoff">
+            <p class="closing">Sincerely,</p>
+            <p class="name">Lakshmi Pravallika Regalla</p>
+            <p class="contact">pravallikaregalla9@gmail.com · +1 (201) 904-1595</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Lakshmi Pravallika ✦</div>
+          <p>AI-Assisted Full Stack Engineer crafting full-stack experiences from concept to production.</p>
+        </div>
+        <div>
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Reach out</h5>
+          <ul>
+            <li><a href="mailto:pravallikaregalla9@gmail.com">pravallikaregalla9@gmail.com</a></li>
+            <li><a href="tel:+12019041595">+1 (201) 904-1595</a></li>
+            <li>New York, USA</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Lakshmi Pravallika Regalla</span>
+        <span>Designed &amp; built with ✦</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
